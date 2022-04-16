@@ -1,5 +1,6 @@
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Fraunces', serif;
 }
 
 /* Grid CSS */
@@ -18,10 +19,12 @@ body {
   margin: 0px 5%;
 }
 #navBar h1 {
+  font-family: 'Kanit', sans-serif;
   width: 25%;
   font-weight: 500;
 }
 #navigation {
+  font-family: 'Kanit', sans-serif;
   display: flex;
   width: 50%;
   align-items: center;
@@ -42,16 +45,17 @@ body {
   cursor: pointer;
 }
 .highlight {
-  color: #FF6200;
+  color: #3e80aa;
   font-weight: 700;
 }
+
 
 /* Typography CSS */
 
 h2 {
   font-size: 60px;
   margin: 0px 0px;
-  color: #FF6200;
+  color: #3e80aa;
 }
 
 h3 {
