@@ -16,12 +16,12 @@ body {
 
 #featuredProduct {
   grid-area: 1 / 1 / 3 / 2;
-  background-image: url("/images/furniture1@2x.png");
+  background-image: url("https://dorothytoth.github.io/Repo18/images/furniture1@2x.png");
 }
 
 #secondaryProduct {
   grid-area: 1 / 2 / 2 / 3;
-  background-image: url("/images/furniture2@2x.png");
+  background-image: url("../images/furniture2@2x.png");
 }
 
 #CTA {
@@ -127,13 +127,17 @@ body {
 
 #navBar {
   display: flex;
-  position: sticky;
+  position: fixed;
+  top: 0;
+  width: 100%;
   flex-direction: row;
-  margin: 0px 5%;
+  margin: 0px;
   height: 75px;
   z-index: 2;
-  background-color: rgba(255,255,255,0.8);
+  background-color: rgba(100,255,255,0.8);
   align-items: center;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 #navBar h1 {
   font-family: 'Kanit', sans-serif;
