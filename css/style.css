@@ -27,13 +27,15 @@ body {
 #CTA {
   grid-area: 2 / 2 / 3 / 3;
   background-image: url("/images/woodbg@2x.png");
-  justify-content: 0px 5%;
+  justify-content: space-around;
   cursor: pointer;
   padding: 20px;
 }
 
-#CTA .carrot {
-  padding: 10px;
+
+
+#CTA img {
+  width: 30px;
 }
 
 .heroGridArea {
